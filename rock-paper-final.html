@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic ROCK</title>
+    <link rel="stylesheet" href="rock-paper-final.css">
+    
+  </head>
+  <body>
+    <h2>ROCK PAPER SCISSORS</h2>
+
+    <!-- Buttons -->
+    <button onclick="results('rock')"><img class="emoji" src="images/rock-emoji.png" alt=""></button>
+    <button onclick="results('paper')"><img class="emoji" src="images/paper-emoji.png" alt=""></button>
+    <button onclick="results('scissors')"><img class="emoji" src="images/scissors-emoji.png" alt=""></button>
+    <button onclick="resetScore()">Reset Score</button>
+
+    <!-- Result & Score Display -->
+    <div id="result-display"></div>
+    <div id="score-display"></div>
+
+    <script src="rock-paper-final.js"></script>
+  </body>
+</html>
